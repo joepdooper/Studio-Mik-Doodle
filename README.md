@@ -16,7 +16,7 @@ Draw online on a post-it and share your drawings on social media with Studio Mik
 ## How it works
 
 #### Share the image
-Pressing a button to share your HTML5 `<canvas>` drawing will trigger the function [saveViaAJAX](https://github.com/joepdooper/Studio-Mik-Doodle/blob/master/script.php). The function shares a link with social media and activates the [doodle/CanvasSave.php](https://github.com/joepdooper/Studio-Mik-Doodle/blob/master/doodle/CanvasSave.php).
+Pressing a button to share your HTML5 `<canvas>` drawing will trigger the function [saveViaAJAX](https://github.com/joepdooper/Studio-Mik-Doodle/blob/master/script.php). The function shares a link with social media and activates [doodle/CanvasSave.php](https://github.com/joepdooper/Studio-Mik-Doodle/blob/master/doodle/CanvasSave.php).
 ```javascript
 function saveViaAJAX(clicked_id) {…}
 ```
