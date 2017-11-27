@@ -32,7 +32,7 @@ foreach ($xml as $afbeeldingen) {
 $fp = $count.".png";
 ```
 ```php
-file_put_contents($fp, $unencodedData);
+file_put_contents($fp, $data);
 ```
 
 … while the illustrated data is merged with [doodle/postit.png](https://github.com/joepdooper/Studio-Mik-Doodle/blob/master/doodle/postit.png) – to make it look like it is drawn on a post-it – and saved as one image …
