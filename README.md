@@ -73,8 +73,6 @@ $value = (string) $xml->doodles->afbeelding[$nodenum];
 ## Authors
 
 * **Joep Dooper** - [Joep](https://github.com/joepdooper)
-* **Maikel Verkoelen** - [Studio Mik](http://www.studiomik.nl)
-* **Brechje Geutjes** - [Studio Brechting](http://www.brechting.nl)
 
 ## License
 
