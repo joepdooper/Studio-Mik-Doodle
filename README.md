@@ -58,7 +58,7 @@ $sxe->asXML("studiomik_doodle.xml");
 #### Show the image
 [doodle.php](https://github.com/joepdooper/Studio-Mik-Doodle/blob/master/doodle.php) is the page that shows your saved image and it includes [variable.php](https://github.com/joepdooper/Studio-Mik-Doodle/blob/master/variable.php).
 
-The URL created with the function [saveViaAJAX](https://github.com/joepdooper/Studio-Mik-Doodle/blob/master/script.php) contains a variable `afb` followed by a number. For instance [doodle.php?afb=4](http://www.studiomik.nl/doodle.php?afb=4). This number is read to show your created image.
+The URL created with the function [saveViaAJAX](https://github.com/joepdooper/Studio-Mik-Doodle/blob/master/script.php) contains parameter `afb`. For instance [doodle.php?afb=4](http://www.studiomik.nl/doodle.php?afb=4).
 
 ```php
 $nodenum = isset($_GET["afb"]) ? $_GET["afb"] : '';
